@@ -20,3 +20,9 @@
     flex-direction: column;
     margin-bottom: 2rem;
 }
+
+.destacados_panel-imagen {
+    box-shadow: 0 2px 10px 5px #00000020;
+    margin-bottom: .5rem;
+    width: 100%;
+}
