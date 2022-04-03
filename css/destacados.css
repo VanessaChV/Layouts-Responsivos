@@ -3,3 +3,14 @@
     padding-bottom: 2rem;
     padding-top: 2.5rem;
 }
+
+.destacados_titulo {
+    color: var(--fuente-ceniza-oscuro);
+    font-family: var(--montserrat);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
