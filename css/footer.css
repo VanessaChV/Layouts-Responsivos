@@ -13,7 +13,7 @@
     display: flex;
 }
 
-.footer__midia {
+.footer__media {
     display: block;
 
     width: 42px;
@@ -36,13 +36,16 @@
 }
 
 @media screen and (min-width: 1024px) {
+
     .footer {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
     }
+
     .footer__navegacion {
-        text-align: left;
         min-width: 600px;
+        text-align: left;
     }
+
 }

@@ -54,11 +54,12 @@
 }
 
 @media screen and (min-width: 1024px) {
+
     .institucional__contenido {
-        width: 100%;
         display: flex;
         justify-content: space-between;
         text-align: left;
+        width: 100%;
     }
 
     .institucional__video {

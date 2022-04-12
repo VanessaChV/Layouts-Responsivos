@@ -67,17 +67,17 @@
 }
 
 .tarjetas__boton {
+    align-self: center;
     font-size: 1.2rem;
     font-weight: 700;
 
-    width: 100%;
-
-    align-self: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 
     padding: .75rem 2rem;
 
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    width: 100%;
+
 }
 
 .tarjetas--start {
@@ -106,9 +106,9 @@
 
 @media screen and (min-width: 1024px) {
     .planes__tarjetas {
+        align-items: flex-end;
         flex-direction: row;
         justify-content: space-between;
-        align-items: flex-end;
     }
     .tarjetas {
         max-width: 300px;
